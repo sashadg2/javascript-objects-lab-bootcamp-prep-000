@@ -4,4 +4,4 @@ function updateObjectWithKeyAndValue(object, key, value) {
   return object[key] = value
 }
 
-updateObjectWithKeyAndValue(recipes, prop1, 1)
+updateObjectWithKeyAndValue(recipes, "prop1", 1)
